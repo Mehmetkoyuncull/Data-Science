@@ -1,0 +1,61 @@
+Elbette, anlama dayalı blog gönderisinin Markdown formatındaki hali aşağıdadır:
+
+---
+
+## ✍️ Blog Gönderisi: Kalkülüsün Sezgisel Sırları
+
+### 🎯 **Limit, Türev ve İntegral: Matematik Neden Hareket Eder?**
+
+Matematiği genellikle statik sayılar ve formüller yığını olarak düşünürüz. Oysa **Kalkülüs (İntegral ve Türev Hesabı)**, dünyayı **hareket** ve **değişim** merceğinden görmemizi sağlayan bir dildir. Bu postada, lisede ezberlediğimiz o formüllerin arkasındaki sezgisel anlamı keşfedeceğiz.
+
+---
+
+### 1. Limit: "Tam Orada Değil, Ama Neredeyse Orada!" 🤏
+
+Limit, Kalkülüs’ün beşiğidir ve sezgisel olarak bir şeye **yaklaşmak** demektir.
+
+Bir arabanın hız göstergesini düşünün. Araba $100 \text{ km/sa}$'e yaklaşırken, tam olarak o hıza ulaştığı anı görmek zor olabilir. Limit, bir fonksiyonun $f(x)$'in, $x$ belirli bir değere ($a$) **yaklaşırken** hangi değere doğru gittiğini bulma sanatıdır. 
+
+#### ❓ **Neden İhtiyacımız Var?**
+Bazen bir fonksiyon, tam olarak ilgilendiğimiz noktada ($x=a$) tanımsız olabilir (örneğin $\frac{0}{0}$). Limit, bu "delikten" bakarak, fonksiyonun o anki davranışını değil, o ana **ne kadar yaklaştığındaki** eğilimini görmemizi sağlar. Yani bize, **"Ne Oluyor?"** sorusunun cevabını verir.
+
+---
+
+### 2. Türev: Anlık Değişimi Yakalamak ⚡
+
+Türev, bir fonksiyonun **anlık değişim oranıdır** ve sezgisel olarak o andaki **eğim** veya **hız** anlamına gelir.
+
+Hızla giden bir roket hayal edin. Roketin kalkışından $t=5$ saniye sonra tam olarak ne kadar hızlı gittiğini bulmak istersiniz. Ortalama hızı hesaplayabiliriz, ancak bu sadece bir tahmindir.
+
+#### 🚀 **Sezgisel Anlama:**
+Türev, bu ortalama değişim aralığını ($\Delta t$) alıp, onu **sıfıra yaklaştırarak** ($\Delta t \to 0$) tam olarak $t=5$ anındaki **anlık hızı** (eğimi) bulur. Bu, bir eğriye sadece **bir noktada değen** o incecik **teğet doğrusunun eğimidir**.
+
+Türev bize, **"Şu Anda Ne Kadar Hızlı Değişiyor?"** sorusunun cevabını verir.
+
+---
+
+### 3. İntegral: Sonsuz Küçük Parçaları Toplamak 🧩
+
+İntegral, türevin tersi işlemidir ve sezgisel olarak **toplama** (birleştirme) ve **alan** anlamına gelir.
+
+#### 🌊 **Sezgisel Anlama:**
+Hızınızın zamanla sürekli değiştiği bir yolculuk yaptınız. Ne kadar yol kat ettiğinizi (toplam mesafeyi) nasıl bulursunuz?
+
+1.  Hız-Zaman grafiğinizi çizin.
+2.  İntegral, bu eğrinin altındaki **alanı** hesaplar.
+3.  Bunu, yolculuğu sonsuz sayıda, çok kısa (çok ince) zaman dilimlerine (**$dx$**) ayırarak yapar. Her bir kısa aralıkta, hızınızın değeri ($f(x)$) ile zaman aralığını ($dx$) çarparak minik bir dikdörtgenin alanını ($f(x) \cdot dx$) bulur. 
+4.  Daha sonra bu sonsuz sayıdaki küçük alanları **toplar**.
+
+İntegral bize, **"Toplam Etki Ne Oldu? (Veya Toplam Alan Ne Kadar?)"** sorusunun cevabını verir.
+
+---
+
+### 🧠 Özet: Üçlü İlişki
+
+Kalkülüsün bu üç temel taşı, değişimi anlamak için birbiriyle iç içe çalışır:
+
+* **Limit:** Bir noktadaki eğilimi sezme (yaklaşım).
+* **Türev:** Anlık değişim oranını bulma (hız/eğim).
+* **İntegral:** Anlık değişimlerin toplam etkisini bulma (alan/mesafe).
+
+Matematik, durağan değil, dinamiktir ve bu kavramlar evrendeki değişimin dilini anlamamız için bize güçlü bir araç sunar.
